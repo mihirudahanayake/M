@@ -151,6 +151,14 @@ section {
     align-items: center;
 }
 
+.home .name {
+    color: #0d82ef;
+}
+
+.home .me {
+    color: #0ca5c4;
+}
+
 .home-img img {
     width: 30vw;
     transition: .5s ease;
