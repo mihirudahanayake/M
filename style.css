@@ -108,6 +108,8 @@ section {
 }
 
 
+
+
 @media (width < 1000px) {
     .navbar .checkbox {
         display: block;
@@ -133,6 +135,7 @@ section {
         font-size: 1.25rem;
     }
 }
+/**/
 
 
 #menu-icon {
@@ -234,16 +237,11 @@ section {
 }
 .show-more:checked ~ .more-content {
     display: block;
-
-}
-.show-more:checked ~ .button label::before {
-    content: "Show Less";
 }
 .show-more:checked ~ .a-content label::before {
     content: "Show Less";
 }
 
-.button label,
 .a-content label {
     cursor: pointer;
     display: flex;
@@ -263,7 +261,6 @@ section {
     transition: .5s ease;
 }
 
-.button label:hover,
 .a-content label:hover {
     box-shadow: 0 0 10px var(--main-color);
     background: var(--main-color);
@@ -271,7 +268,6 @@ section {
     
 }
 
-.button label::before,
 .a-content label::before {
     content: "Read More";
 }
@@ -286,7 +282,7 @@ section {
 .hobby {
     display: flex;
     justify-content: center;
-    align-items: top;
+    align-items: center;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -323,12 +319,6 @@ section {
     transform: scale(1.02)
 }
 
-.button {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
 
 .about {
     display: flex;
@@ -356,6 +346,14 @@ section {
     margin: 10px 0 20px;
 }
 
+.msg {
+    justify-content: center;
+}
+
+.msg {
+    justify-content: center;
+    align-items: center;
+}
 
 .container {
     text-align: center;
