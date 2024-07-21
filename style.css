@@ -253,6 +253,10 @@ section {
     content: "Read More";
 }
 
+.hobbies {
+    background: var(--second-bg-color);
+}
+
 .hobbies h1,
 .projects h1 {
     font-size: 56px;
@@ -317,6 +321,7 @@ section {
 .pro-box h3 {
     font-size: 22px;
     margin-bottom: 15px;
+    color: #000000;
 }
 
 .pro-box p {
