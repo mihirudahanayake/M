@@ -315,7 +315,7 @@ section {
 
 .hobby .hobby-box:hover {
     border-color: #0091ff;
-    background-color: var(--secound-bg-color);
+    background-color: var(--second-bg-color);
     transform: scale(1.02)
 }
 
