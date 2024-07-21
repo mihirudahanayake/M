@@ -351,6 +351,10 @@ section {
     margin: 10px 0 20px;
 }
 
+.msg {
+    justify-content: center;
+}
+
 .container {
     text-align: center;
     border-radius: 5px;
