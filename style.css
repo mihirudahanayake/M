@@ -12,7 +12,7 @@
 
 :root {
     --bg-color: #ffffff;
-    --secound-bg-color: #fafafaf7;
+    --second-bg-color: #fafafaf7;
     --text-color: #000000;
     --main-color: rgb(8, 153, 236);
     --m-color: #ffffff;
@@ -41,7 +41,7 @@
     left: 0;
     width: 100%;
     padding: 20px 9%;
-    background-color: var(--secound-bg-color);
+    background-color: var(--second-bg-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
