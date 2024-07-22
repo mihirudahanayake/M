@@ -1,0 +1,6 @@
+Name : Mihiru Milanka Dahanayake
+Reg. No : ITT/2022/021
+Index No : 2002
+
+
+The JavaScript file, is only used to change the color of the menu item while scrolling.
